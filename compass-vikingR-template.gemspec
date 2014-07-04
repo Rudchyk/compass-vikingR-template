@@ -55,6 +55,6 @@ Gem::Specification.new do |s|
   # These are Gem dependencies, not Compass dependencies. Including gems
   #  here will make sure the relevant gem and version are installed on the
   #  user's system when installing your gem.
-  s.add_dependency('sass', '~> 0')
-  s.add_dependency('compass', '~> 0')
+  s.add_dependency('sass', '~> 3.3', '>= 3.3.8')
+  s.add_dependency('compass', '~> 0.12', '>= 0.12.6')
 end
