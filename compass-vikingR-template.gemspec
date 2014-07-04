@@ -23,7 +23,8 @@ Gem::Specification.new do |s|
   # If more than one author, comma separate inside of the brackets
   s.email = ["sergii.rudchyk@gmail.com"]
   # URL of the extension
-  s.homepage = "http://viking-r.pp.ua/"
+  s.homepage = "https://github.com/Rudchyk/compass-vikingR-template"
+  s.licenses = ['MIT']
 
   # Gem Files
   # These are the files to be included in your Compass extension.
@@ -33,7 +34,7 @@ Gem::Specification.new do |s|
   s.files = ["README.md"]
 
   # CHANGELOG
-  s.files += ["CHANGELOG.md"]
+  # s.files += ["CHANGELOG.md"]
 
   # Library Files
   s.files += Dir.glob("lib/**/*.*")
@@ -54,6 +55,6 @@ Gem::Specification.new do |s|
   # These are Gem dependencies, not Compass dependencies. Including gems
   #  here will make sure the relevant gem and version are installed on the
   #  user's system when installing your gem.
-  s.add_dependency("sass")
-  s.add_dependency("compass")
+  s.add_dependency('sass', '~> 0')
+  s.add_dependency('compass', '~> 0')
 end
