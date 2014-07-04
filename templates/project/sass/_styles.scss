@@ -1,0 +1,23 @@
+/* ---------->>> HEADER <<<-----------*/
+
+.header{}
+.logo{}
+
+/* ---------->>> CONTENT <<<-----------*/
+
+.content{
+    padding-bottom: $footerHeight;
+}
+
+.main-section{}
+
+/* ---------->>> FOOTER <<<-----------*/
+
+.footer{
+    @include box-sizing(border-box);
+    height: $footerHeight;
+}
+
+// /* ---------->>> POPUPS <<<-----------*/
+
+// /* ---------->>> OTHER STYLES <<<-----------*/

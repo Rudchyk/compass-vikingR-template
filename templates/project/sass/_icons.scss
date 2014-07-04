@@ -1,0 +1,55 @@
+// /* ---------->>> SPRITE <<<-----------*/
+
+// $icons-spacing: 10px;
+// @import "icons/*.png";
+
+// /* ---------->>> MIXINS <<<-----------*/
+
+@mixin icons($name) {
+    @include icons-sprite($name);
+    height: icons-sprite-height($name);
+    width: icons-sprite-width($name);
+}
+
+/* ---------->>> ICONS <<<-----------*/
+
+//icons
+
+// @each $icon in $icons {
+//     .#{$icon}-icon{
+//         @include icons(#{$icon});
+//     }
+// }
+
+//blocks
+
+// @each $block in $blocks {
+//     .#{$block}{
+//         @include icons(#{$block});
+//     }
+// }
+
+//icons pseudo
+
+// @each $before in $befores {
+//     .#{$before}:before{
+//         @include icons(#{$before});
+//     }
+// }
+
+// @each $after in $afters {
+//     .#{$after}:after{
+//         @include icons(#{$after});
+//     }
+// }
+
+//buttons
+
+// @each $button in $buttons {
+//     .#{$button}{
+//         @include icons(#{$button});
+//         &:hover{
+//             @include icons-sprite(#{$button}_hover);
+//         }
+//     }
+// }
