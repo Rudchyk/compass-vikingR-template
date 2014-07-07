@@ -82,4 +82,4 @@ my_project
     |index.scss ******************************// Main stylesheets file
     |no_valid.scss ***************************// No valid stylesheets file
 ```
-<a href="http://headjs.com/">*1*</a>, <a href="https://code.google.com/p/html5shiv/">*2*</a>, <a href="http://jquery.com/">*3*</a>
+*<a href="http://headjs.com/">1</a>*, *<a href="https://code.google.com/p/html5shiv/">2</a>*, *<a href="http://jquery.com/">3</a>*
