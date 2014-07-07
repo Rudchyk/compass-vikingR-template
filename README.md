@@ -25,8 +25,8 @@ compass create my_project -r compass-vikingR-template --using compass-vikingR-te
 ```sh
 my_project
 |
-|config.rb // _Settings for Compass_
-|index.html // _HTML template_
+|config.rb // *Settings for Compass*
+|index.html // *HTML template*
 |index.php // _Showcase of the project_
 |readme.txt // _Notes_
 |screenshot.jpg // _Screenshot of the project_
@@ -58,11 +58,11 @@ my_project
     |temp // Directory with temporary images
     |favicon.png // Favicon for the project
 |js // Javascripts directory
-    |head.min.js ->v1.0.3 // JavaScript library what make the only script in HEAD, "link":http://headjs.com/
+    |head.min.js ->v1.0.3 // JavaScript library what make the only script in HEAD, [link][http://headjs.com/]
     |head.min.js.map // The map file for head.min.js
-    |html5.js // JavaScript adds new HTML5 elements, "link":https://code.google.com/p/html5shiv/
+    |html5.js // JavaScript adds new HTML5 elements, [link][https://code.google.com/p/html5shiv/]
     |init.js // Adding HeadJS to the project
-    |jquery.min.js ->v1.11.1 // Cross-platform JavaScript library designed to simplify the client-side scripting of HTML, "link":http://jquery.com/
+    |jquery.min.js ->v1.11.1 // Cross-platform JavaScript library designed to simplify the client-side scripting of HTML, [link][http://jquery.com/]
     |jquery.min.js.map // The map file for jquery.min.js
     |placeholder.min.js // JavaScript for placeholders in IE9
     |rform.js // Full JavaScript library for forms, default "unconnected"
