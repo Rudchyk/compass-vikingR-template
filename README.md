@@ -58,11 +58,11 @@ my_project
     |temp ************************************// Directory with temporary images
     |favicon.png *****************************// Favicon for the project
 |js ******************************************// Javascripts directory
-    |head.min.js *****************************// ->v1.0.3; JavaScript library what make the only script in HEAD (link1)
+    |head.min.js (Latest Versions) ***********// JavaScript library what make the only script in HEAD (*1*)
     |head.min.js.map *************************// The map file for head.min.js
-    |html5.js ********************************// JavaScript adds new HTML5 elements (link2)
+    |html5.js ********************************// JavaScript adds new HTML5 elements (*2*)
     |init.js *********************************// Adding HeadJS to the project
-    |jquery.min.js ***************************// ->v1.11.1; Cross-platform JavaScript library designed to simplify the client-side scripting of HTML (link3)
+    |jquery.min.js (Latest Versions) *********// Cross-platform JavaScript library designed to simplify the client-side scripting of HTML (*3*)
     |jquery.min.js.map ***********************// The map file for jquery.min.js
     |placeholder.min.js **********************// JavaScript for placeholders in IE9
     |rform.js ********************************// Full JavaScript library for forms, default "unconnected"
@@ -82,6 +82,4 @@ my_project
     |index.scss ******************************// Main stylesheets file
     |no_valid.scss ***************************// No valid stylesheets file
 ```
-*<a href="http://headjs.com/">link1</a>
-*<a href="https://code.google.com/p/html5shiv/">link2</a>
-*<a href="http://jquery.com/">link3</a>
+<a href="http://headjs.com/">*1*</a>, <a href="https://code.google.com/p/html5shiv/">*2*</a>, <a href="http://jquery.com/">*3*</a>
