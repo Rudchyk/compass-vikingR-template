@@ -6,6 +6,7 @@ html 'index.html', :to => "index.html"
 html 'index.php', :to => "index.php"
 file 'files/readme.txt', :to => "readme.txt"
 image 'files/screenshot.jpg', :to => "../screenshot.jpg"
+file 'files/compass_watch.bat', :to => "compass_watch.bat"
 
 # Stylesheet Import
 file 'css/dev.css', :to => "css/dev.css"
@@ -27,10 +28,10 @@ image 'images/loading.gif', :to => "required/loading.gif"
 image 'images/noimg.jpg', :to => "required/noimg.jpg"
 
 # Javascript Import
-file 'files/head.min.js.map', :like => :javascript, :to => "head.min.js.map"
-file 'files/jquery-1.10.2.min.map', :like => :javascript, :to => "jquery-1.10.2.min.map"
-file 'js/jquery-1.10.2.min.js', :like => :javascript, :to => 'jquery-1.10.2.min.js'
+file 'js/jquery-1.11.1.min.js', :like => :javascript, :to => 'jquery.min.js'
+file 'js/jquery-1.11.1.min.map', :like => :javascript, :to => "jquery.min.js.map"
 file 'js/head.min.js', :like => :javascript, :to => 'head.min.js'
+file 'js/head.min.js.map', :like => :javascript, :to => "head.min.js.map"
 file 'js/html5.js', :like => :javascript, :to => 'html5.js'
 file 'js/init.js', :like => :javascript, :to => 'init.js'
 file 'js/placeholder.min.js', :like => :javascript, :to => 'placeholder.min.js'

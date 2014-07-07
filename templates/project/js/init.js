@@ -13,7 +13,7 @@ if (head.browser.ie && head.browser.version < 9) {
 }
 
 head.js(
-    sourcePath+"js/jquery-1.10.2.min.js",
+    sourcePath+"js/jquery.min.js",
     sourcePath+"js/rform.min.js",
     // sourcePath+"js/.js",
     // sourcePath+"js/scripts.js",
