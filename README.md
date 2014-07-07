@@ -25,16 +25,16 @@ compass create my_project -r compass-vikingR-template --using compass-vikingR-te
 ```sh
 my_project
 |
-|config.rb // *Settings for Compass*
-|index.html // *HTML template*
-|index.php // _Showcase of the project_
-|readme.txt // _Notes_
-|screenshot.jpg // _Screenshot of the project_
-|compass_watch.bat // _Console command "compass watch"_
-|css // _Stylesheets directory_
-    |dev.css // _Css for developers_
-|fonts // _Fonts directory_
-|ie7 // _Cap for IE<8_
+|config.rb //*********************************Settings for Compass
+|index.html //********************************HTML template
+|index.php //*********************************Showcase of the project
+|readme.txt //********************************Notes
+|screenshot.jpg //****************************Screenshot of the project
+|compass_watch.bat //*************************Console command "compass watch"
+|css //***************************************Stylesheets directory
+    |dev.css //*******************************Css for developers
+|fonts //*************************************Fonts directory
+|ie7 //***************************************Cap for IE<8
     |images
         |as.jpg
         |bg_span_wol.gif
@@ -58,11 +58,11 @@ my_project
     |temp // Directory with temporary images
     |favicon.png // Favicon for the project
 |js // Javascripts directory
-    |head.min.js ->v1.0.3 // JavaScript library what make the only script in HEAD, [link][http://headjs.com/]
+    |head.min.js ->v1.0.3 // JavaScript library what make the only script in HEAD (link1)
     |head.min.js.map // The map file for head.min.js
-    |html5.js // JavaScript adds new HTML5 elements, [link][https://code.google.com/p/html5shiv/]
+    |html5.js // JavaScript adds new HTML5 elements (link2)
     |init.js // Adding HeadJS to the project
-    |jquery.min.js ->v1.11.1 // Cross-platform JavaScript library designed to simplify the client-side scripting of HTML, [link][http://jquery.com/]
+    |jquery.min.js ->v1.11.1 // Cross-platform JavaScript library designed to simplify the client-side scripting of HTML (link3)
     |jquery.min.js.map // The map file for jquery.min.js
     |placeholder.min.js // JavaScript for placeholders in IE9
     |rform.js // Full JavaScript library for forms, default "unconnected"
@@ -82,3 +82,6 @@ my_project
     |index.scss // Main stylesheets file
     |no_valid.scss // No valid stylesheets file
 ```
+[link1][http://headjs.com/]
+[link2][https://code.google.com/p/html5shiv/]
+[link3][http://jquery.com/]
