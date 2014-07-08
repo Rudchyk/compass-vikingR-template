@@ -20,13 +20,8 @@ head.js(
     function() {}
 );
 
-if (head.browser.ie && head.browser.version < 10) {
-    head.js(
-        sourcePath+"js/placeholder.min.js",
-        function() {
-            $("input[placeholder], textarea[placeholder]").textPlaceholder();
-        }
-    );
+if (head.browser.ie && head.browser.version < 10 || head.browser.opera) {
+    head.js( sourcePath+"js/placeholder.min.js" );
 }
 
 // if (hasClass(document.documentElement, 'body_class')) {
@@ -36,26 +31,3 @@ if (head.browser.ie && head.browser.version < 10) {
 //     );
 // }
 
-if (head.browser.opera) {
-    head.ready(document, function () {
-        function removePlaceholder(e) {
-            var el = e.target;
-            if (!el.placeHolderRemoved) {
-                el.placeHolderRemoved = true;
-                el.value = "";
-                el.removeAttribute("data-operaplaceholder");
-            }
-        }
-        var inputs = document.getElementsByTagName("input");
-        for (var i = 0; i < inputs.length; ++i) {
-            var el = inputs[i],
-                ph = el.getAttribute("placeholder");
-            if (ph && !el.hasAttribute("value")) {
-                el.value = ph;
-                el.removeAttribute("placeholder");
-                el.setAttribute("data-operaplaceholder", "");
-                el.addEventListener("click", removePlaceholder, false);
-            }
-        }
-    });
-}

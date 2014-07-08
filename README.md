@@ -64,7 +64,7 @@ my_project
     |init.js *********************************// Adding HeadJS to the project
     |jquery.min.js (Latest Versions) *********// Cross-platform JavaScript library designed to simplify the client-side scripting of HTML (*3*)
     |jquery.min.js.map ***********************// The map file for jquery.min.js
-    |placeholder.min.js **********************// JavaScript for placeholders in IE9
+    |placeholder.min.js **********************// JavaScript for placeholders in IE9 and Opera
     |rform.js ********************************// Full JavaScript library for forms, default "unconnected"
     |rform.min.js ****************************// Compressed JavaScript library for forms
     |scripts.js ******************************// All scripts for the project, default "commented out"
