@@ -3,7 +3,7 @@ Compass VikingR Template
 
 Version
 ----
-1.0
+1.1.3
 
 License
 ----
