@@ -15,6 +15,14 @@ Installation
 gem install compass-vikingR-template
 ```
 
+Plugins installation
+-------------------
+Without these plugins template will not work (<a href="https://github.com/Team-Sass/Sassy-math">Sassy Math</a>, <a href="https://github.com/jhardy/compass-ceaser-easing">Compass Ceaser CSS Easing</a>)
+```sh
+gem install sassy-math
+gem install ceaser-easing
+```
+
 Create project
 --------------
 ```sh
