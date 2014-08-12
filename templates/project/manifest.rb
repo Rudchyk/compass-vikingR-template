@@ -28,10 +28,7 @@ image 'images/loading.gif', :to => "required/loading.gif"
 image 'images/noimg.jpg', :to => "required/noimg.jpg"
 
 # Javascript Import
-file 'js/jquery-1.11.1.min.js', :like => :javascript, :to => 'jquery.min.js'
-file 'js/jquery-1.11.1.min.map', :like => :javascript, :to => "jquery.min.js.map"
 file 'js/head.min.js', :like => :javascript, :to => 'head.min.js'
-file 'js/head.min.js.map', :like => :javascript, :to => "head.min.js.map"
 file 'js/html5.js', :like => :javascript, :to => 'html5.js'
 file 'js/init.js', :like => :javascript, :to => 'init.js'
 file 'js/placeholder.min.js', :like => :javascript, :to => 'placeholder.min.js'
