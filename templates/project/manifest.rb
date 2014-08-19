@@ -29,9 +29,9 @@ image 'images/noimg.jpg', :to => "required/noimg.jpg"
 
 # Javascript Import
 file 'js/head.min.js', :like => :javascript, :to => 'head.min.js'
-file 'js/html5.js', :like => :javascript, :to => 'html5.js'
 file 'js/init.js', :like => :javascript, :to => 'init.js'
-file 'js/placeholder.min.js', :like => :javascript, :to => 'placeholder.min.js'
+file 'js/ph.js', :like => :javascript, :to => 'ph.js'
+file 'js/ph.min.js', :like => :javascript, :to => 'ph.min.js'
 file 'js/rform.js', :like => :javascript, :to => 'rform.js'
 file 'js/rform.min.js', :like => :javascript, :to => 'rform.min.js'
 file 'js/scripts.js', :like => :javascript, :to => 'scripts.js'
