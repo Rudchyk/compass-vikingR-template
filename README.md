@@ -75,16 +75,19 @@ my_project
     |scripts.js ******************************// All scripts for the project, default "commented out"
 |sass ****************************************// Sass directory
     |source **********************************// Source directory for styles
-        |_browsers.scss **********************// Unique styles for browsers
-        |_formstyle.scss *********************// Styles for forms
-        |_icons.scss *************************// Styles for icons
-        |_layout.scss ************************// Styles for RWD or unique classes for pages
-        |_main.scss **************************// Main styles
         |_mixins.scss ************************// Mixins for styles
-        |_reset.scss *************************// Reset styles
-        |_styles.scss ************************// All styles for the project
         |_variables.scss *********************// Variables for styles
+        |_reset.scss *************************// Reset styles
+        |_default.scss ***********************// Default classes
+        |_main.scss **************************// Main styles
+        |_typography.scss ********************// Typography
+        |_formstyle.scss *********************// Styles for forms
+        |_buttons.scss ***********************// Styles for buttons
+        |_icons.scss *************************// Styles for icons
+        |_styles.scss ************************// All styles for the project
+        |_layout.scss ************************// Styles for unique classes for pages
+        |_responsive.scss ********************// Styles for RWD
+        |_browsers.scss **********************// Unique styles for browsers
     |index.scss ******************************// Main stylesheets file
-    |no_valid.scss ***************************// No valid stylesheets file
 ```
 *<a href="http://headjs.com/">1</a>*, *<a href="https://code.google.com/p/html5shiv/">2</a>*
