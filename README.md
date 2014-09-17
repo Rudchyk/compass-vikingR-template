@@ -42,7 +42,7 @@ my_project
 |css *****************************************// Stylesheets directory
     |dev.css *********************************// Css for developers
 |fonts ***************************************// Fonts directory
-|ie7 *****************************************// Cap for IE<8
+|ie-old *****************************************// Cap for old IE
     |images
         |as.jpg
         |bg_span_wol.gif
@@ -56,7 +56,7 @@ my_project
         |td2.jpg
         |td3.jpg
     |favicon.ico
-    |ie7.html
+    |index.html
 |images **************************************// Images directory
     |bg **************************************// Directory with background images
     |icons ***********************************// Directory with icons for sprite
@@ -73,18 +73,22 @@ my_project
     |rform.js ********************************// Full JavaScript library for forms, default "unconnected"
     |rform.min.js ****************************// Compressed JavaScript library for forms
     |scripts.js ******************************// All scripts for the project, default "commented out"
+    |example.js ******************************// Example scripts for the project, default "commented out"
 |sass ****************************************// Sass directory
     |source **********************************// Source directory for styles
         |_mixins.scss ************************// Mixins for styles
         |_variables.scss *********************// Variables for styles
         |_reset.scss *************************// Reset styles
-        |_default.scss ***********************// Default classes
-        |_main.scss **************************// Main styles
+        |_global.scss ************************// Global styles
         |_typography.scss ********************// Typography
         |_formstyle.scss *********************// Styles for forms
         |_buttons.scss ***********************// Styles for buttons
         |_icons.scss *************************// Styles for icons
-        |_styles.scss ************************// All styles for the project
+        |_header.scss ************************// Styles for header
+        |_content.scss ***********************// Styles for content
+        |_footer.scss ************************// Styles for footer
+        |_all.scss ***************************// All styles for the project
+        |_default.scss ***********************// Default classes
         |_layout.scss ************************// Styles for unique classes for pages
         |_responsive.scss ********************// Styles for RWD
         |_browsers.scss **********************// Unique styles for browsers
