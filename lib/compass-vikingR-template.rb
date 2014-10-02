@@ -25,8 +25,8 @@ Compass::Frameworks.register(
 #    a prerelease version
 #  Date is in the form of YYYY-MM-DD
 module Extension
-  VERSION = "1.2.1"
-  DATE = "2014-09-17"
+  VERSION = "1.2.2"
+  DATE = "2014-10-02"
 end
 
 module Compass

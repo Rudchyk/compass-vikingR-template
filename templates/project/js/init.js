@@ -14,10 +14,11 @@ if (head.browser.ie && head.browser.version < 9) {
 
 head.js(
     "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js",
-    sourcePath+"js/rform.min.js",
+    sourcePath+"js/rform.js",
+    // sourcePath+"js/rform.min.js",
     // sourcePath+"js/.js",
     // sourcePath+"js/scripts.js",
-    // sourcePath+"js/example.js",
+    sourcePath+"js/example.js",
     function() {}
 );
 
