@@ -23,7 +23,6 @@ file 'sass/_header.scss', :to => "sass/source/_header.scss"
 file 'sass/_content.scss', :to => "sass/source/_content.scss"
 file 'sass/_footer.scss', :to => "sass/source/_footer.scss"
 file 'sass/_all.scss', :to => "sass/source/_all.scss"
-file 'sass/_modals.scss', :to => "sass/source/_modals.scss"
 file 'sass/_default.scss', :to => "sass/source/_default.scss"
 file 'sass/_layout.scss', :to => "sass/source/_layout.scss"
 file 'sass/_responsive.scss', :to => "sass/source/_responsive.scss"
@@ -41,7 +40,6 @@ file 'js/init.js', :like => :javascript, :to => 'init.js'
 file 'js/ph.js', :like => :javascript, :to => 'ph.js'
 file 'js/ph.min.js', :like => :javascript, :to => 'ph.min.js'
 file 'js/rform.js', :like => :javascript, :to => 'rform.js'
-file 'js/modal.js', :like => :javascript, :to => 'modal.js'
 file 'js/scripts.js', :like => :javascript, :to => 'scripts.js'
 file 'js/example.js', :like => :javascript, :to => 'example.js'
 

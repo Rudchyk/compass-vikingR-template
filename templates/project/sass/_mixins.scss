@@ -114,7 +114,7 @@
 
         #{$side}: 100%;
         #{$secPos}: 50%;
-        margin-#{$secPos}: -$width/2;
+        margin-#{$secPos}: -$width;
     }
     @else{
         @content;
@@ -207,6 +207,10 @@
     $defaultFontSize: $base-font-size;
     @return $fontUnit/$defaultFontSize+rem;
 }
+@mixin photoshopLetterSpacing($photoshopValue){
+    $cssValue: $photoshopValue/1000;
+    letter-spacing: $cssValue+em;
+}
 
 @mixin centerBlock($Static, $Max: false, $Min: false){
     @if ($Static){
@@ -236,6 +240,9 @@
     }
     @else if $pos == "relative"{
         @extend .relative;
+    }
+    @else if $pos == "fixed"{
+        @extend .fixed;
     }
     @else{
         position: $pos;
